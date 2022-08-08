@@ -1,11 +1,19 @@
 {
   "name": "scanner-box",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "renders a bounding box around the qr code",
   "main": "QrCodeScanner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JK",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babana0/scanner-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/babana0/scanner-box/issues"
+  },
+  "homepage": "https://github.com/babana0/scanner-box#readme"
 }
