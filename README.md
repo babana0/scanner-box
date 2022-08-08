@@ -1,5 +1,5 @@
-##Installation
-###Install library from npm:
+## Installation
+### Install library from npm:
 
 ```bash
 npm install scanner-box
