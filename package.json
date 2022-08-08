@@ -1,6 +1,6 @@
 {
   "name": "scanner-box",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "renders a bounding box around the qr code",
   "main": "QrCodeScanner.js",
   "scripts": {

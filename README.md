@@ -8,7 +8,7 @@ npm install scanner-box
 
 ## Props
 
-1. borderLength - set the length for the bounding corners
+1. cornerLength - set the length for the bounding corners
 2. color - set the colour of the bounding box
 3. borderSize - set the width of the box border
 4. radius - set the radius of the border
@@ -90,7 +90,7 @@ export default function App() {
       ></BarCodeScanner>
 
       <QrCodeScanner
-        borderLength={10}
+        cornerLength={20}
         color="blue"
         borderSize={10}
         radius={30}
@@ -114,7 +114,7 @@ The scanner-box component usage is like below
 
 ````jsx
  <QrCodeScanner
-        borderLength={10}
+        cornerLength={20}
         color="blue"
         borderSize={10}
         radius={30}
@@ -122,9 +122,8 @@ The scanner-box component usage is like below
         origin={boundOrigin}
         size={boundSize}
         borderOffSet={5}
-      />
-      ```
-
-
+/>
 
 ````
+
+
