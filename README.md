@@ -110,20 +110,38 @@ const styles = StyleSheet.create({
 });
 ```
 
-The scanner-box component usage is like below
+The following scanner-box component usage renders this bounding box with blue corners
 
 ````jsx
- <QrCodeScanner
-        cornerLength={20}
-        color="blue"
-        borderSize={10}
-        radius={30}
-        shape="corners"
+<QrCodeScanner
+  cornerLength={30}
+  color="blue"
+  borderSize={5}
+  radius={30}
+  shape="corners"
+  origin={boundOrigin}
+  size={boundSize}
+  borderOffSet={10}
+/>
+````
+
+![](https://github.com/babana0/scanner-box/blob/main/blue.gif)
+
+The The following scanner-box component usage renders this red bounding box
+
+`````jsx
+      <QrCodeScanner
+        color="red"
+        borderSize={5}
+        radius={10}
+        shape="square"
         origin={boundOrigin}
         size={boundSize}
-        borderOffSet={5}
-/>
+      />
+      
+`````
 
-````
+![](https://github.com/babana0/scanner-box/blob/main/red.gif)
+
 
 
