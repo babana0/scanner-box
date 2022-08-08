@@ -143,5 +143,11 @@ The The following scanner-box component usage renders this red bounding box
 
 ![](https://github.com/babana0/scanner-box/blob/main/red.gif)
 
+## Others
+
+1. cornerLength only needed to be defined if user is going for a 'corners' bounding box, this is because cornerLength is use to set the legth and width of the corners and is not needed if the bounding box is a 'square'
+
+2. borderOffset is used so the borders rendered does not land directly on top of the qr code. 
+
 
 
