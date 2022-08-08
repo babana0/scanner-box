@@ -5,7 +5,7 @@
 npm install scanner-box
 ```
 
-##Props
+## Props
 
 1. borderLength - set the length for the bounding corners 
 2. color - set the colour of the bounding box
