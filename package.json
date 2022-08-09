@@ -1,6 +1,6 @@
 {
   "name": "scanner-box",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "renders a bounding box around the qr code",
   "main": "QrCodeScanner.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/babana0/scanner-box/issues"
   },
-  "homepage": "https://github.com/babana0/scanner-box#readme"
+  "homepage": "https://github.com/babana0/scanner-box#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "expo-barcode-scanner",
+    "scanner-box"
+  ]
 }
